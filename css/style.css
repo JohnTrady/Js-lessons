@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100%;
-    font-family: "Manrope", sans-serif;
+    font-family:  sans-serif;
     font-style: normal;
     font-size: 16px;
     color: #000000;
@@ -44,3 +44,26 @@ h1 , h2 ,h3 ,h4 ,h5 ,h6 , p {
    display: flex;
    flex-direction: column;
 }
+
+body {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+}
+
+.yellow {
+   color: yellow;
+}
+.green {
+   color: green;
+}
+h1 {
+   text-align:center;
+   margin-top: 50px;
+   font-size: 45px;
+}
+ .text {
+   padding: 50px;
+   max-width: 1100px;
+   margin: 0 auto;
+ }
