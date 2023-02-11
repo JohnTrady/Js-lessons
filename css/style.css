@@ -4,7 +4,8 @@ body {
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
+    background-color: #333;
     
     
     
@@ -44,3 +45,52 @@ h1 , h2 ,h3 ,h4 ,h5 ,h6 , p {
    display: flex;
    flex-direction: column;
 }
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.title {
+   font-size: 35px;
+   padding: 35px 0;
+}
+.text {
+   padding: 25px 0px;
+}
+.buttons>*:not(:last-child) {
+   margin-right: 10px;
+}
+.scroll-by__button {
+}
+.button {
+   font-weight: 500;
+   font-size: 24px;
+   background-color: yellow;
+   border: none;
+   border-radius: 8px;
+   padding: 8px 15px;
+   transition: background 0.3s ease 0s;
+   cursor: pointer;
+}
+button:hover {
+   background-color: rgb(207, 207, 0);
+}
+
+
+
+.text-block {
+   margin: 0px auto;
+   width: 500px;
+   height: 300px;
+   padding: 15px;
+   border: 20px solid #7a956b;
+   background-color: brown;
+   overflow: auto;
+   line-height: 150%;
+}
+
+.text-block p:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+
+
