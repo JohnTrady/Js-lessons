@@ -4,7 +4,8 @@ body {
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-size: 16px;
-    color: #000000;
+    color:#fff;
+    background-color: #333;
     
     
     
@@ -43,4 +44,97 @@ h1 , h2 ,h3 ,h4 ,h5 ,h6 , p {
    overflow: hidden;
    display: flex;
    flex-direction: column;
+}
+
+p {
+   margin-bottom: 15px;
+   font-size: 18px;
+}
+
+.main {
+}
+.container {
+   max-width: 1440px;
+   padding: 0px 15px;
+   margin: 0 auto;
+}
+
+.title    {
+   font-size: 35px;
+   padding: 50px 0px;
+}
+
+.form {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.form-column {
+   margin-bottom: 30px;
+
+}
+
+.form-column>*:not(:last-child) {
+    margin-bottom: 30px;
+}
+.text {
+}
+.input-text {
+   padding: 5px 15px;
+   background-color: rgb(255, 255, 255, 0.1); 
+   border-radius: 8px;
+   color: #fff;
+   font-size: 18px;
+   outline: none;
+   
+}
+textarea {
+   width: 300px;
+   height: 200px;
+   background-color: rgb(255, 255, 255, 0.1) ;
+   border-radius: 8px;
+   padding: 20px;
+   font-size: 18px;
+   color: #fff;
+}
+.radio-input {
+
+   
+   
+}
+
+
+
+.select {
+   
+}
+.input-select {
+   width: 150px;
+   background-color:  rgb(255, 255, 255, 0.1);
+   padding: 10px 15px;
+   border-radius: 8px;
+   font-size: 18px;
+   color: #fff;
+
+}
+.input-select option {
+  
+   background-color: #333;
+   border-radius: 8px;
+  
+}
+
+.form-column button {
+    padding: 10px 25px;
+    background-color: Yellow;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.5s ease 0s;
+    border: none;
+
+}
+
+.form-column button:hover {
+   background-color: red;
 }
